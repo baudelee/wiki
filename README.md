@@ -1,2 +1,2 @@
 # JavaScript
-http://www.jstips.co/zh_CN/
+[JS Tips](http://www.jstips.co/zh_CN/)
