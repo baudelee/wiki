@@ -1,2 +1,2 @@
-# wiki
-Create wiki as a notebook
+# JavaScript
+http://www.jstips.co/zh_CN/
