@@ -64,4 +64,13 @@ angular.module('myApp', [])
   这个参数用来告诉AngularJS停止运行当前元素上比本指令优先级低的指令。
   使用了terminal参数的例子就是ngView和ngIf。ngIf优先级高于ngView。如果ngIf为true，则ngView会正常执行；如果ngIf为false，则ngView不会被执行。
 
-  
+* template 字符串或函数
+  template参数是可选的，必须被设置为以下两种形式之一：
+    一段HTML文本；
+    一个可以接受两个参数的函数，参数为tElement和tAttrs,并返回一个代表模板的字符串。tElement和tAttrs中的t代表template，是相对于instance的。
+
+* templateUrl 字符串或函数
+  templateUrl是可选参数，可以是以下类型：
+    @一个代表外部HTML文件路径的字符串
+    @一个可以接受两个参数的函数，参数为tElement和tAttrs,并返回一个外部HTML文件路径的字符串
+    @
